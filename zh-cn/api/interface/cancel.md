@@ -16,7 +16,7 @@
 | status | 流水状态 | String\(32\) | Y | 本次操作产生的流水的状态 | "SUCCESS" |
 | order\_status | 预授权订单状态 | String\(32\) | Y | 当前预授权订单状态 | "FREEZED" |
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
-| cancel\_amount | 撤销金额 | String\(10\) | Y | 原始交易实收金额 | "100" |
+| amount | 撤销金额 | String\(10\) | Y | 原始交易实收金额 | "100" |
 | operator | 操作员 | String\(32\) | Y | 门店操作员 | Obama |
 
 
