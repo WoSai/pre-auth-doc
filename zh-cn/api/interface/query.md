@@ -15,7 +15,7 @@ auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单
 | client\_auth\_sn | 商户预授权订单号 | String\(32\) | Y | 商户系统预授权订单号 | "7654321132" |
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
-| total\_freeze\_amount | 预授权订单原冻结金额 | String\(10\) | Y | 订单原冻结金额 | "100" |
+| origin\_freeze\_amount | 预授权订单原冻结金额 | String\(10\) | Y | 订单原冻结金额 | "100" |
 | rest\_amount | 预授权订单剩余冻结金额 | String\(10\) | Y | 剩余冻结金额 | "100" |
 | total\_pay\_amount | 预授权订单用于支付金额 | String\(10\) | Y | 订单支付金额 | "100" |
 | operator | 执行上次业务操作的操作员 | String\(32\) | Y | 操作员 | Obama |
