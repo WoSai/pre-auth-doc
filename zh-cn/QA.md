@@ -11,7 +11,7 @@
 
 **终端号/terminal_sn:**终端序列号
 
-**终端密钥/terminal_key:**终端密钥，支付类，开票类接口使用终端序列号和终端密钥进行签名
+**终端密钥/terminal_key:**终端密钥，支付类接口使用终端序列号和终端密钥进行签名
 
 ## 收钱吧服务器IP
 域名：https://api.shouqianba.com
