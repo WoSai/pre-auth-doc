@@ -13,8 +13,8 @@
 | terminal\_sn | 终端号 | String\(32\) | Y | 收钱吧终端ID | "01939202039923029" |
 | auth\_sn | 收钱吧唯一预授权订单号 | String\(16\) | Y | 收钱吧系统内部唯一预授权订单号 | "7892259488292938" |
 | client\_auth\_sn | 商户预授权订单号 | String\(32\) | Y | 商户系统预授权订单号 | "7654321132" |
-| status | 流水状态 | String\(32\) | Y | 本次操作产生的流水的状态 | "SUCCESS" |
-| order\_status | 预授权订单状态 | String\(32\) | Y | 当前预授权订单状态 | "REFUND" |
+|  |  |  |  |  |  |
+| status | 预授权订单状态 | String\(32\) | Y | 当前预授权订单状态 | "REFUND" |
 | refund\_amount | 退款金额 | String\(10\) | Y | 退款金额 | "100" |
 | operator | 操作员 | String\(32\) | Y | 门店操作员 | Obama |
 
