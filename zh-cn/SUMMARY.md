@@ -14,7 +14,7 @@
     * [4.3.5 预授权操作查询接口](api/interface/query.md)
     * [4.3.6 预授权完成接口](api/interface/pay.md)
     * [4.3.7 预授权完成退款接口](api/interface/refund.md)
-    * [4.3.8 预授权流水操作记录查询接口](api/interface/refund.md)
+    * [4.3.8 预授权流水操作记录查询接口](api/interface/query_trans.md)
   * 4.5 附录
     * [4.5.1 接口响应字段](api/annex/responseParams.md)
     * [4.5.2 通讯状态码](api/annex/responseCode.md)
