@@ -12,10 +12,10 @@ auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单
 | --- | --- | --- | --- | --- | --- |
 | terminal\_sn | 终端号 | String\(32\) | Y | 收钱吧终端ID | "01939202039923029" |
 | auth\_sn | 收钱吧预授权唯一订单号 | String\(16\) | Y | 收钱吧系统内部唯一预授权订单号 | "7894259245320979"|
+| subject | 预授权订单标题 | String\(32\) | Y | 订单标题 | "千里香馄饨订单" |
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
 | payer\_user\_id | 付款方ID | String\(64\) | Y | 支付平台对应唯一用户ID | "2088402019148643" |
 | payer\_logon\_id | 付款方账号 | String\(128\) | Y | 支付平台对应付款方账号 | "134**3920" |
-| subject | 预授权订单标题 | String\(32\) | Y | 订单标题 | "千里香馄饨订单" |
 | trans | 预授权资金操作流水记录 | Array | Y | 预授权资金操作流水记录数组 | [] |
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
 | request\_type | 资金操作流类型 | String\(20\) | Y | 目前支持： FREEZE:冻结  UNFREEZE:解冻  PAY:支付 REFUND:退款 | "FREEZE" |
