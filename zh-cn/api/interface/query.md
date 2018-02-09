@@ -23,6 +23,7 @@ request\_no与client\_trans\_no不能同时为空，优先按照request\_no查�
 | total\_pay\_amount | 累计支付金额 | String\(10\) | Y | 预授权订单累计支付金额 | "100" |
 | total\_freeze\_amount | 订单累计冻结金额 | String\(10\) | Y | 预授权订单累计冻结金额 | "100" |
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
+| subject | 预授权支付订单标题 | String\(32\) | N | 订单标题 | "千里香馄饨订单" ，不填默认商户名称 |
 | request\_create\_time | 操作流水创建时间 | String\(13\) | Y | 时间戳 | "1449646835244" |
 | operator | 执行上次业务操作的操作员 | String\(32\) | Y | 操作员 | Obama |
 
