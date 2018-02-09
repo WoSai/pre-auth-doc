@@ -1,4 +1,4 @@
-# 预授权撤销
+# 预授权操作查询
 
 ## 接口名
 {api_domain}/api/v1/auth/query
