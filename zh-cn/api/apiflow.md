@@ -14,7 +14,7 @@
 
 激活接口对于同一台终端，只需要调用一次。
 
-## ![](/img/Notactivited.png)
+## ![](../img/Notactivited.png)
 
 ## 签到
 
