@@ -1,7 +1,7 @@
 # 预授权完成
 
 ## 接口名
-{api_domain}/api/v1/auth/pay
+{api_domain}/api/v1/pre-auth/pay
 ## 请求类型
 application/json
 ## 访问方式
