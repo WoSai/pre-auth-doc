@@ -19,7 +19,7 @@ auth\_sn与client\_auth\_sn、sn不能同时为空，优先按照auth\_sn查找�
 | client\_auth\_sn | 商户系统预授权订单号 | String\(32\) | Y | 必须在商户系统内唯一；且长度不超过32字节 | "1077735255938023" |
 | request\_no | 收钱吧操作流水号 | String\(20\) | Y | 收钱吧本次操作流水号 | "15154048770704543281" |
 | client\_trans\_no | 商户系统操作请求流水号 | String\(36\) | Y | 必须在商户系统内唯一；且长度不超过36字节 | "201802091001001" |
-| status | 预授权订单状态 | String\(32\) | Y | 当前预授权订单状态 | "SUCCESS" |
+| status | 当前退款操作状态 | String\(32\) | Y | 当前退款操作状态 | "SUCCESS" |
 | amount | 退款金额 | String\(10\) | Y | 退款金额 | "100" |
 | operator | 操作员 | String\(32\) | Y | 门店操作员 | Obama |
 
