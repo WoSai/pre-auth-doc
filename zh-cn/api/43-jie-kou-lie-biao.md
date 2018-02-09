@@ -12,4 +12,23 @@
 * [**预授权流水操作记录查询接口**](/api/interface/query_trans.md)：通过商户预授权订单号或收钱吧预授权订单号查询操作流水记录；
 
 
+### 预授权主要功能交互时序
+
+#### 预授权
+
+预授权接口何时发起轮询：若请求接口超时，就需要马上发起轮询。
+轮询时间可以在3~5s，总时长控制在70s左右。
+
+```
+pay接口返回：biz_response.result_code是指一个动作的状态。biz_response.data罗列订单信息，biz_response.data.order_status是指订单状态。
+```
+
+![](../img/pay_sd.jpg?raw=true)
+
+
+
+
+
+
+
 
