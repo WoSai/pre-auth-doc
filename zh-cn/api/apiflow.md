@@ -26,5 +26,5 @@
 
 极特殊情况下，两次签到均未收到响应，请联系客服处理。
 
-![](/zh-cn/img/Activited.png)
+![](../img/Activited.png)
 
