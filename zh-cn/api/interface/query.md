@@ -18,6 +18,7 @@ request\_no与client\_trans\_no不能同时为空，优先按照request\_no查�
 | request\_no | 收钱吧操作流水号 | String\(20\) | Y | 收钱吧本次操作流水号 | "15154048770704543281" |
 | client\_trans\_no | 商户系统操作请求流水号 | String\(36\) | Y | 必须在商户系统内唯一；且长度不超过36字节 | "201802091001001" |
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
+| request\_type | 资金操作流类型 | String\(20\) | Y | 目前支持： FREEZE:冻结  UNFREEZE:解冻  PAY:支付 REFUND:退款 | "FREEZE" |
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
 | rest\_amount | 剩余冻结金额 | String\(10\) | Y | 预授权订单剩余冻结金额 | "100" |
 | total\_pay\_amount | 累计支付金额 | String\(10\) | Y | 预授权订单累计支付金额 | "100" |
