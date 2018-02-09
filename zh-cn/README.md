@@ -11,7 +11,7 @@
 
 # 业务流程
 
-![](/zh-cn/img/pre-auth.png)
+![](../zh-cn/img/pre-auth.png)
 
 
 
