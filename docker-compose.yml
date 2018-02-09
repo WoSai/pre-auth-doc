@@ -1,6 +1,6 @@
 version: '2'
 services:
-  e-invoice-doc:
+  pre-auth-doc:
     build: .
     image: registry.wosai-inc.com/pre-auth-doc
     restart: always
