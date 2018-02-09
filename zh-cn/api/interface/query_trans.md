@@ -13,6 +13,8 @@ auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单
 | terminal\_sn | 终端号 | String\(32\) | Y | 收钱吧终端ID | "01939202039923029" |
 | auth\_sn | 收钱吧预授权唯一订单号 | String\(16\) | Y | 收钱吧系统内部唯一预授权订单号 | "7894259245320979"|
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
+
+| status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
 | request\_type | 资金操作流类型 | String\(20\) | Y | 目前支持： FREEZE:冻结  UNFREEZE:解冻  PAY:支付 REFUND:退款 | "FREEZE" |
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
 | rest\_amount | 剩余冻结金额 | String\(10\) | Y | 预授权订单剩余冻结金额 | "100" |
