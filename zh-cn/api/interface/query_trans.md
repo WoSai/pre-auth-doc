@@ -1,7 +1,7 @@
 # 预授权流水记录查询
 
 ## 接口名
-{api_domain}/api/v1/auth/refund
+{api_domain}/api/v1/auth/query-trans
 ## 请求类型
 application/json
 ## 访问方式
