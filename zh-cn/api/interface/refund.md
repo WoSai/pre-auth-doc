@@ -7,7 +7,7 @@
 | amount | 退款金额 | String\(10\) | Y | 以分为单位,不超过10位纯数字字符串,不超过1亿元 | "1000" |
 | operator | 门店操作员 | String\(32\) | Y | 发起本次交易的操作员 | Obama |
 
-*auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单，如果没有，在按照client\_auth\_sn查询*
+**auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单，如果没有，在按照client\_auth\_sn查询**
 
 ### 返回参数说明
 
