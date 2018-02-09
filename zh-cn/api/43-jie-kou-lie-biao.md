@@ -24,7 +24,7 @@
 ```
 
 
-![](../img/pay_sd.png)
+![](../img/freeze_sd.png)
 
 
 
