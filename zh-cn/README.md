@@ -25,5 +25,5 @@
 
 开始对接流程请查看[对接流程文档](api/apiflow.md)
 
-具体对接方式请查看[web api对接接口文档](/api/43-jie-kou-lie-biao.md)
+具体对接方式请查看[web api对接接口文档](api/43-jie-kou-lie-biao.md)
 
