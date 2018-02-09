@@ -1,7 +1,7 @@
 # 预授权完成退款
 
 ## 接口名
-{api_domain}/api/v1/auth/pay
+{api_domain}/api/v1/auth/refund
 ## 请求类型
 application/json
 ## 访问方式
