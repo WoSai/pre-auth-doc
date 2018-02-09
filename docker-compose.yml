@@ -6,6 +6,6 @@ services:
     restart: always
     container_name: pre-auth-doc
     ports:
-      - "11140:4000"
+      - "11150:4000"
     volumes:
       - /usr/share/pre-auth-doc:/gitbook/_book
