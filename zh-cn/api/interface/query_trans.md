@@ -23,7 +23,7 @@ auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
 | status | 操作流水状态 | String\(32\) | Y | 当前流水操作状态 | "SUCCESS" |
 | request\_create\_time | 查询request\_no操作流水创建时间 | String\(13\) | Y | 时间戳 | "1449646835244" |
-| request\_finish\_time | 查询request\_no操作流水创建时间 | String\(13\) | Y | 时间戳 | "1449646835244" |
+| request\_finish\_time | 查询request\_no操作流水完成时间 | String\(13\) | Y | 时间戳 | "1449646835244" |
 | operator | 执行上次业务操作的操作员 | String\(32\) | Y | 操作员 | Obama |
 
 
