@@ -20,9 +20,10 @@ request\_no与client\_trans\_no不能同时为空，优先按照request\_no查�
 | client\_trans\_no | 商户系统操作请求流水号 | String\(36\) | Y | 必须在商户系统内唯一；且长度不超过36字节 | "201802091001001" |
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
+| rest\_amount | 预授权订单剩余冻结金额 | String\(10\) | Y | 剩余冻结金额 | "100" |
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
 | origin\_freeze\_amount | 预授权订单原冻结金额 | String\(10\) | Y | 订单原冻结金额 | "100" |
-| rest\_amount | 预授权订单剩余冻结金额 | String\(10\) | Y | 剩余冻结金额 | "100" |
+
 | total\_pay\_amount | 预授权订单用于支付金额 | String\(10\) | Y | 订单支付金额 | "100" |
 | operator | 执行上次业务操作的操作员 | String\(32\) | Y | 操作员 | Obama |
 
