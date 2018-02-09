@@ -22,9 +22,6 @@ auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单
 | request\_type | 资金操作流类型 | String\(20\) | Y | 目前支持： FREEZE:冻结  UNFREEZE:解冻  PAY:支付 REFUND:退款 | "FREEZE" |
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
 | status | 操作流水状态 | String\(32\) | Y | 当前流水操作状态 | "SUCCESS" |
-| rest\_amount | 剩余冻结金额 | String\(10\) | Y | 预授权订单剩余冻结金额 | "100" |
-| total\_pay\_amount | 累计支付金额 | String\(10\) | Y | 预授权订单累计支付金额 | "100" |
-| total\_freeze\_amount | 订单累计冻结金额 | String\(10\) | Y | 预授权订单累计冻结金额 | "100" |
 | request\_create\_time | 查询request\_no操作流水创建时间 | String\(13\) | Y | 时间戳 | "1449646835244" |
 | operator | 执行上次业务操作的操作员 | String\(32\) | Y | 操作员 | Obama |
 
