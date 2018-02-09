@@ -1,10 +1,14 @@
 # 预授权
 
 ## 接口名
-{api_domain}/api/v1/auth
+{api_domain}/api/v1/auth/cancel
 ## 请求类型
 application/json
+## 访问方式
+POST
 ### 请求参数
+
+
 
 
 | 参数 | 参数名称 | 类型 | 必填 | 描述 | 范例 |
