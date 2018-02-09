@@ -9,7 +9,7 @@
   * [4.3 接口列表](api/43-jie-kou-lie-biao.md)
     * [4.3.1 激活接口](api/interface/activate.md)
     * [4.3.2 签到接口](api/interface/checkin.md)
-    * [4.3.3 预授权接口](api/interface/auth.md)
+    * [4.3.3 预授权接口](api/interface/freeze.md)
     * [4.3.4 预授权撤销接口](api/interface/unfreeze.md)
     * [4.3.5 预授权操作查询接口](api/interface/query.md)
     * [4.3.6 预授权完成接口](api/interface/pay.md)
