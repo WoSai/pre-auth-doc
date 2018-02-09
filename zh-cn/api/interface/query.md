@@ -9,7 +9,6 @@ auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单
 request\_no与client\_trans\_no不能同时为空，优先按照request\_no查找，如果没有，再按照client\_auth\_sn查询
 
 
-
 ### 返回参数说明
 
 | 参数 | 参数名称 | 类型 | 必填 | 描述 | 范例 |
