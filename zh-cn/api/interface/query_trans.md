@@ -17,7 +17,8 @@ auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单
 | payer\_user\_id | 付款方ID | String\(64\) | Y | 支付平台对应唯一用户ID | "2088402019148643" |
 | payer\_logon\_id | 付款方账号 | String\(128\) | Y | 支付平台对应付款方账号 | "134**3920" |
 | trans | 预授权资金操作流水记录 | Array | Y | 预授权资金操作流水记录数组 | [] |
-
+| request\_no | 收钱吧操作流水号 | String\(20\) | Y | 收钱吧本次操作流水号 | "15154048770704543281" |
+| client\_trans\_no | 商户系统操作请求流水号 | String\(36\) | Y | 必须在商户系统内唯一；且长度不超过36字节 | "201802091001001" |
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
 | request\_type | 资金操作流类型 | String\(20\) | Y | 目前支持： FREEZE:冻结  UNFREEZE:解冻  PAY:支付 REFUND:退款 | "FREEZE" |
