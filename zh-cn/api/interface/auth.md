@@ -1,7 +1,7 @@
 # 预授权
 
 ## 接口名
-{api_domain}/api/v1/auth/initiate
+{api_domain}/api/v1/pre-auth/freeze
 ## 请求类型
 application/json
 ## 访问方式
