@@ -1,8 +1,6 @@
 # 签名机制
 
 ## 请求域名
-
-   收钱吧接入域名(api_domain)：`https://einvoice-api.shouqianba.com`
    
    <font color="red">**注：收钱吧的Web API接口是https协议，当发起请求时，会要求检查证书，在发起请求时规避ssl的证书检查或者
   携带证书请求**</font>
@@ -16,7 +14,17 @@
 需要使用激活得到的终端号(terminal_sn)和终端密钥(terminal_key)进行签名的接口:
    
    * 1.签到
-   * 2.开票
+   * 2.预授权
+   * 3.预授权
+   * 4.预授权
+   * 5.预授权
+   * 6.预授权
+   * 7.预授权
+   * 8.预授权
+     
+
+
+   
    
     <font color="red">**注：如果使用了签到接口，请以签到返回的terminal_sn和terminal_key作为其他接口的签名参数**</font>
 
