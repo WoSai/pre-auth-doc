@@ -1,7 +1,7 @@
 # 预授权撤销
 
 ## 接口名
-{api_domain}/api/v1/auth/cancel
+{api_domain}/api/v1/pre-auth/unfreeze
 ## 请求类型
 application/json
 ## 访问方式
