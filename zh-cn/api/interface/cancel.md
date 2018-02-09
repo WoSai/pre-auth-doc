@@ -1,4 +1,4 @@
-# 预授权
+# 预授权撤销
 
 ## 接口名
 {api_domain}/api/v1/auth/cancel
