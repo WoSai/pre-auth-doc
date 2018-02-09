@@ -14,7 +14,7 @@
 
 激活接口对于同一台终端，只需要调用一次。
 
-
+## ![](/zh-cn/img/Notactivited.png)
 
 ## 签到
 
@@ -26,4 +26,5 @@
 
 极特殊情况下，两次签到均未收到响应，请联系客服处理。
 
-![](../img/Activited.png?raw=true)
+![](/zh-cn/img/Activited.png)
+
