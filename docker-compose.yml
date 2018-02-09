@@ -7,5 +7,6 @@ services:
     container_name: pre-auth-doc
     ports:
       - "11150:4000"
+    network_mode: bridge
     volumes:
       - /usr/share/pre-auth-doc:/gitbook/_book
