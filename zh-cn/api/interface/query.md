@@ -21,7 +21,7 @@ request\_no与client\_trans\_no不能同时为空，优先按照request\_no查�
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
 | rest\_amount | 剩余冻结金额 | String\(10\) | Y | 预授权订单剩余冻结金额 | "100" |
-| total\_pay\_amount | 预授权订单累计支付金额 | String\(10\) | Y | 订单支付金额 | "100" |
+| total\_pay\_amount | 累计支付金额 | String\(10\) | Y | 预授权订单累计支付金额 | "100" |
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
 | origin\_freeze\_amount | 预授权订单原冻结金额 | String\(10\) | Y | 订单原冻结金额 | "100" |
 
