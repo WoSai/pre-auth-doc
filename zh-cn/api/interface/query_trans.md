@@ -18,10 +18,8 @@ auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单
 | payer\_logon\_id | 付款方账号 | String\(128\) | Y | 支付平台对应付款方账号 | "134**3920" |
 | trans | 预授权资金操作流水记录 | Array | Y | 预授权资金操作流水记录数组 | [] |
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
-
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
 | request\_type | 资金操作流类型 | String\(20\) | Y | 目前支持： FREEZE:冻结  UNFREEZE:解冻  PAY:支付 REFUND:退款 | "FREEZE" |
-
 | rest\_amount | 剩余冻结金额 | String\(10\) | Y | 预授权订单剩余冻结金额 | "100" |
 | total\_pay\_amount | 累计支付金额 | String\(10\) | Y | 预授权订单累计支付金额 | "100" |
 | total\_freeze\_amount | 订单累计冻结金额 | String\(10\) | Y | 预授权订单累计冻结金额 | "100" |
