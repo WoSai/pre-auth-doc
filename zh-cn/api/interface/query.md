@@ -26,7 +26,7 @@ request\_no与client\_trans\_no不能同时为空，优先按照request\_no查�
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
 | payer\_user\_id | 付款方ID | String\(64\) | Y | 支付平台对应唯一用户ID | "2088402019148643" |
 | payer\_logon\_id | 付款方账号 | String\(128\) | Y | 支付平台对应付款方账号 | "134**3920" |
-| subject | 预授权订单标题 | String\(32\) | Y | 订单标题 | "千里香馄饨订单" ，不填默认商户名称 |
+| subject | 预授权订单标题 | String\(32\) | Y | 订单标题 | "千里香馄饨订单" |
 | request\_create\_time | 查询request\_no操作流水创建时间 | String\(13\) | Y | 时间戳 | "1449646835244" |
 | operator | 执行上次业务操作的操作员 | String\(32\) | Y | 操作员 | Obama |
 
