@@ -1,4 +1,4 @@
-# 预授权完成
+# 预授权完成退款
 
 ## 接口名
 {api_domain}/api/v1/auth/pay
