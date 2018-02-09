@@ -27,12 +27,11 @@
 ![](../img/freeze_sd.png)
 
 #### 预授权撤销
-
-
+![](../img/unfreeze.png)
 #### 预授权完成
-
+![](../img/pay.png)
 #### 预授权完成退款
-![](/zh-cn/img/refund_sd.png)
+![](../img/refund_sd.png)
 
 
 
