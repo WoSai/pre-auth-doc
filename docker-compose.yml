@@ -9,4 +9,5 @@ services:
       - "11150:4000"
     network_mode: bridge
     volumes:
-      - /usr/share/pre-auth-doc:/gitbook/_book
+      - /app/bin/shouqianbaBook/pre-auth-doc:/gitbook
+      #- /usr/share/pre-auth-doc:/gitbook/_book
