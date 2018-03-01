@@ -5,9 +5,5 @@ services:
     image: registry.wosai-inc.com/pre-auth-doc
     restart: always
     container_name: pre-auth-doc
-    ports:
-      - "11150:4000"
-    network_mode: bridge
     volumes:
-      - /app/bin/shouqianbaBook/pre-auth-doc:/gitbook
-      #- /usr/share/pre-auth-doc:/gitbook/_book
+      - /usr/share/pre-auth-doc:/gitbook/_book
