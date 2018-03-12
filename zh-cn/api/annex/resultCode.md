@@ -7,5 +7,5 @@ biz_response.result_code,状态分为：状态分为 SUCCESS、CLOSED、INIT和 
 **INIT** |    本次操作流水进行中
 **SUCCESS** | 本次操作流水执行成功	
 **CLOSED**|   本次操作流水执行关闭
-**UNKOWN**|   本次业务执行结果未知
+**UNKNOWN**|   本次业务执行结果未知
 
