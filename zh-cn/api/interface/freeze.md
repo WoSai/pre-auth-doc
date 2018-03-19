@@ -26,14 +26,13 @@ POST
 | 参数 | 参数名称 | 类型 | 必填 | 描述 | 范例 |
 | --- | --- | --- | --- | --- | --- |
 | result\_code | 结果码 | String | Y | 结果码表示接口调用的业务逻辑是否成功 | "SUCCESS" |
-| error\_code | 错误码 | String | N | 参考附录：业务执行错误码列表 | "INVALID\_BARCODE" |
-| error\_message | 错误消息 | String | N | 参考附录：业务执行错误码列表 | "不合法的支付条码" |
+| error\_code | 错误码 | String | N | 参考附录：业务执行错误码列表 | "INVALID\_PARAMS" |
+| error\_message | 错误消息 | String | N | 参考附录：业务执行错误码列表 | "参数错误" |
 | terminal\_sn | 终端号 | String\(32\) | Y | 收钱吧终端ID | "01939202039923029" |
 | auth\_sn | 收钱吧预授权唯一订单号 | String\(16\) | Y | 收钱吧系统内部唯一预授权订单号 | "7894259245320979"|
 | client\_auth\_sn | 商户系统预授权订单号 | String\(32\) | Y | 商户系统预授权订单号 | "1077735255938023" |
 | request\_no | 收钱吧本次操作流水号 | String\(20\) | Y | 收钱吧本次操作流水号 | "15154048770704543281" |
 | client\_trans\_no | 商户系统本次操作请求流水号 | String\(36\) | Y | 必须在商户系统内唯一；且长度不超过36字节 | "201802091001001" |
-| status | 预授权结果 | String\(32\) | Y | 预授权结果 | "SUCCESS" |
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
 | amount | 冻结总金额 | String\(10\) | Y | 原始交易实收金额 | "100" |
 | operator | 操作员 | String\(32\) | Y | 门店操作员 | Obama |
