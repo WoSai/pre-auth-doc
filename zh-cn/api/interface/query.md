@@ -34,7 +34,7 @@ POST
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
 | payer\_user\_id | 付款方ID | String\(64\) | Y | 支付平台对应唯一用户ID | "2088402019148643" |
 | payer\_logon\_id | 付款方账号 | String\(128\) | Y | 支付平台对应付款方账号 | "134**3920" |
-| subject | 预授权订单标题 | String\(32\) | Y | 订单标题 | "千里香馄饨订单" |
+| subject | 预授权流水操作概述 | String\(32\) | Y | 流水操作概述 | "预授权订单" |
 | request\_create\_time | 查询request\_no操作流水创建时间 | String\(13\) | Y | 时间戳 | "1449646835244" |
 | request\_finish\_time | 查询request\_no操作流水完成时间 | String\(13\) | Y | 时间戳 | "1449646835244" |
 | operator | 执行上次业务操作的操作员 | String\(32\) | Y | 操作员 | Obama |
