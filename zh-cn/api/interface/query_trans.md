@@ -36,6 +36,6 @@ POST
 | payer\_user\_id | 付款方ID | String\(64\) | Y | 支付平台对应唯一用户ID | "2088402019148643" |
 | payer\_logon\_id | 付款方账号 | String\(128\) | Y | 支付平台对应付款方账号 | "134**3920" |
 | operator | 执行上次业务操作的操作员 | String\(32\) | Y | 操作员 | Obama |
-| subject | 预授权订单标题 | String\(32\) | 可选 | 订单标题 | "千里香馄饨订单" |
+| subject | 本次流水操作概述 | String\(32\) | N | 操作概述 | "租车订单-预授权" |
 
 
