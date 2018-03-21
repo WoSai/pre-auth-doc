@@ -17,6 +17,7 @@ POST
 | client\_trans\_no | 商户系统本次操作请求流水号 | String\(36\) | Y | 必须在商户系统内唯一；且长度不超过36字节 | "201802091001001" |
 | amount | 退款金额 | String\(10\) | Y | 以分为单位,不超过10位纯数字字符串,不超过1亿元 | "1000" |
 | operator | 门店操作员 | String\(32\) | Y | 发起本次交易的操作员 | Obama |
+| subject | 本次流水操作概述 | String\(32\) | N | 操作概述 | "租车订单-退款" |
 
 **auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单，如果没有，在按照client\_auth\_sn查询**
 
