@@ -20,7 +20,7 @@
 轮询时间可以在3~10s，总时长控制在80s以内。
 
 ```
-预授权接口返回：biz_response.result_code是指一个动作的状态。biz_response.data罗列预授权当前操作信息信息，biz_response.data.status是指本次流水操作状态。
+预授权接口返回：biz_response.result_code是指本次流水操作状态。biz_response.data罗列预授权当前操作信息信息。
 ```
 
 
