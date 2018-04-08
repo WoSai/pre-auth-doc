@@ -15,7 +15,7 @@ POST
 | request\_no | 收钱吧操作流水号 | String\(20\) | 特殊可选 | 收钱吧本次操作流水号 | "15154048770704543281" |
 | client\_trans\_no | 商户系统操作请求流水号 | String\(36\) | 特殊可选 | 必须在商户系统内唯一；且长度不超过36字节 | "201802091001001" |
 
-**request\_no与client\_trans\_no不能同时为空，优先按照request\_no查找，如果没有，再按照client\_auth\_sn查询**
+**request\_no与client\_trans\_no不能同时为空，优先按照request\_no查找，如果没有，再按照client\_trans\_no查询**
 
 ### 返回参数说明
 
