@@ -18,14 +18,9 @@ POST
 | pageSize  | 对象属性-页面条数 | Int | 可选 | 用于分页查询使用 | 10 |
 | startTime | 对象属性-起始时间 | Long | 可选 | 用于分页查询使用 |   1523255983000 |
 | endTime   | 对象属性-截止时间 | Long | 可选 | 用于分页查询使用  |  1523255983000 |
+
 **auth\_sn与client\_auth\_sn 可为空，同时不为空时，优先按照auth\_sn查找订单，如果没有，再按照client\_auth\_sn查询**
-**
-pageInfo为可选参数用于分页查询
-"pageInfo":{
-		"pageSize":10,
-		"endTime":1523255983000
-	}
-**
+**pageInfo为可选参数用于分页查询， 对象参数例如："pageInfo":{"pageSize":10,"endTime":1523255983000} **
 
 
 ### 返回参数说明
