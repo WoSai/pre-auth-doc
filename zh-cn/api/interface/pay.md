@@ -18,7 +18,6 @@ POST
 | amount | 订单支付金额 | String\(10\) | Y | 以分为单位,不超过10位纯数字字符串,超过1亿元的收款请使用银行转账 | "1000" |
 | operator | 门店操作员 | String\(32\) | Y | 发起本次交易的操作员 | Obama |
 | subject | 本次流水操作概述 | String\(32\) | N | 操作概述 | "租车订单-预授权" |
-| auth\_confirm\_mode | 预授权完成模式 | String\(12\) | N | 不传默认NOT\_COMPLETE ，可选COMPLETE 或 NOT\_COMPLETE， COMPLETE:预授权完成后自动解冻剩余金额  NOT\_COMPLETE:仅执行转支付给收款方 |
 
 ### 返回参数说明
 
