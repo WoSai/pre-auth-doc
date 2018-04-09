@@ -27,7 +27,7 @@ POST
 | request\_no | 收钱吧操作流水号 | String\(20\) | Y | 收钱吧本次操作流水号 | "15154048770704543281" |
 | client\_trans\_no | 商户系统操作请求流水号 | String\(36\) | Y | 必须在商户系统内唯一；且长度不超过36字节 | "201802091001001" |
 | status | 订单状态 | String\(32\) | Y | 当前订单状态 | "SUCCESS" |
-| request\_type | 资金操作流类型 | String\(20\) | Y | 目前支持： FREEZE:冻结  UNFREEZE:解冻  PAY:支付 REFUND:退款 | "FREEZE" |
+| request\_type | 资金操作流类型 | String\(20\) | Y | 目前支持： 05：冻结 16:解冻 07:支付 18:退款 | "05" |
 | amount | 该笔操作流水对应的金额 | String\(10\) | Y | 操作流水request\_no对应的金额 | "100" |
 | payway | 支付方式 | String\(2\) | Y | 一级支付方式，取值见附录《支付方式列表》 | "1" |
 | payer\_user\_id | 付款方ID | String\(64\) | Y | 支付平台对应唯一用户ID | "2088402019148643" |
