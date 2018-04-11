@@ -20,7 +20,7 @@ POST
 | operator | 门店操作员 | String\(32\) | Y | 发起本次交易的操作员 | Obama |
 | subject | 本次流水操作概述 | String\(32\) | N | 操作概述 | "租车订单-退款" |
 
-**auth\_sn与client\_auth\_sn不能同时为空，优先按照auth\_sn查找订单，如果没有，在按照client\_auth\_sn查询**
+**sn与auth\_sn与client\_auth\_sn不能同时为空，优先按照sn > auth\_sn > client\_auth\_sn 顺序查找订单 **
 
 ### 返回参数说明
 
