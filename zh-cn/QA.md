@@ -14,8 +14,12 @@
 **终端密钥/terminal_key:**终端密钥，支付类接口使用终端序列号和终端密钥进行签名
 
 ## 收钱吧服务器IP
+激活/签到
 域名：https://api.shouqianba.com
+端口：443
 
+预授权
+域名：https://upay-auth-api.shouqianba.com
 端口：443
 
 
